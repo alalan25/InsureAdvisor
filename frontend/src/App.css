@@ -1,0 +1,478 @@
+.nav-header{
+  font-weight: 500;
+  font-size: 2rem;
+  color: white;
+}
+
+.navbarn{
+  margin: auto;
+  background-color: transparent;
+}
+
+.intro-text{
+  margin-top: -10rem;
+  color: white; 
+  font: bold 52px Helvetica, Arial, Sans-Serif;
+  text-shadow: 1px 1px black, 
+               2px 2px black, 
+               3px 3px black
+               ;
+  text-align: center;
+  padding: 20rem;
+  margin-bottom: 10rem;
+  transition-duration: 2s;
+}
+
+.intro-text:hover{
+  transition-duration: 2s;
+}
+body{
+  background-size: cover;
+  background: url(https://steamuserimages-a.akamaihd.net/ugc/270598716228437698/A6FA3B818C99CD17B15EA2B80E62A483FAEA6DB6/);
+  background-size: cover;
+}
+
+.background{
+  z-index: -10;
+}
+
+
+
+.search{
+  border-color:transparent;
+  color: transparent;
+  background-color: transparent;
+}
+
+
+.search:hover{
+  background-color: transparent;
+  color: black;
+}
+
+.mr-sm-2{
+border-color: white;
+background-color: transparent;
+}
+
+.mr-auto{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  font-weight: 500;
+  
+}
+
+.nav-1{
+margin-right: 10rem;
+  }
+  
+  .nav-2{
+    margin-left: 4rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+
+
+.sampleD{
+  display: flex;
+}
+
+.img1{
+  height: 10rem;
+}
+
+.submitb{
+  background-color: #0284fe;
+  }
+  
+  .buttons{
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 10rem;
+  margin-top: -100rem;
+  }
+
+   .button1{
+     border-style: solid;
+    border-color: white;
+    margin-top: -35rem;
+    margin-bottom: 32rem;
+    background-color: transparent;
+  width: 40%;
+color: white;
+  transition-duration: 1s;
+ 
+  }
+  
+  .button1:hover{
+    transform: scale(1.1);
+    transition-duration: .5s;
+    background-color: white;
+    border-color: white;
+  }
+  
+  .button2{
+    border-style: solid;
+   border-color: white;
+   margin-top: -35rem;
+   margin-bottom: 32rem;
+   background-color: transparent;
+ width: 40%;
+color: white;
+ transition-duration: 1s;
+
+ }
+  
+  .button2:hover{
+    transform: scale(1.1);
+    transition-duration: .5s;
+    background-color: white;
+    border-color: white;
+  }
+  
+  
+  .home-image{
+    width: 20%;
+      float: right;
+      margin-right: 2rem;
+      border-radius: 50%;
+      margin-top: -40rem;
+    }
+  
+    .post-displayy{
+ 
+    background-image: url(https://biocharculture.xyz/image/62772-full_image-to-video-filter-confetti.gif);
+    background-blend-mode: color;
+      width: 40%;
+    }
+
+    .logo{
+      width: 30%;
+    }
+  
+    .post-header{
+      color: white;
+      margin-top: 10rem;
+      font-weight: 500;
+      text-align: center;
+      z-index: 10;
+    }
+
+  .post-details{
+    color: white;
+    text-align: center;
+    font-weight: 300;
+  }
+
+  .aboutText{
+    margin-top:5rem;
+  }
+
+  .contact-details{
+    width: 100%;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: auto;
+  }
+  
+  .body-details{
+    width: 80%;
+  }
+  
+  .body-details p{
+  width: 80%;
+  }
+  
+  .alignment {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+  }
+  
+  #formGroupMessage {
+  height: 150px;
+  border: 1px solid;
+  }
+  
+  ::-webkit-input-placeholder { 
+    text-align: left;
+    
+  }
+  
+  
+  .social-containers {
+    margin: auto;
+    text-align: center;
+    font-size: 1.2rem;
+    background: transparent;
+    padding: 25px 50px;
+  }
+  
+  .social-containers h2{
+    font-size: 1.1rem;
+  }
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+  
+  
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+  
+  a.facebook {
+    color: #4968ad;
+  }
+  
+  a.twitter {
+    color: #49a1eb;
+  }
+  
+  a.linkedin{
+    color: black;
+  }
+
+  .returnD{
+    text-align: center;
+
+  }
+
+  .return-details{
+    width: 50%;
+    float: left;
+  }
+
+
+
+  
+  .effect {
+    position: relative;
+    margin: auto;
+    height: 0.71em;
+    color: transparent;
+    font-family: 'Cambay', sans-serif;
+    font-size: 10vw;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.03em;
+  }
+  
+  .effect > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    pointer-events: none;
+  }
+  
+  .effect > div:nth-child(1) {
+    -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
+    mask-image: linear-gradient(black 25%, transparent 25%);
+    animation: deconstructed1 10s infinite;
+  }
+  
+  .effect > div:nth-child(2) {
+    -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+    mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+    animation: deconstructed2 10s infinite;
+  }
+  
+  .effect > div:nth-child(3) {
+     -webkit-mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+    mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+    animation: deconstructed3 10s infinite;
+  }
+  
+  .effect > div:nth-child(4) {
+     -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
+    mask-image: linear-gradient(transparent 75%, black 75%);
+    animation: deconstructed4 10s infinite;
+  }
+  
+  @keyframes deconstructed1 {
+    0% {
+      transform: translateX(100%);
+    }
+    26% {
+      transform: translateX(0%);
+    }
+    83% {
+      transform: translateX(-0.1%);
+    }
+    100% {
+      transform: translateX(-120%);
+    }
+  }
+  
+  @keyframes deconstructed2 {
+    0% {
+      transform: translateX(100%);
+    }
+    24% {
+      transform: translateX(0.5%);
+    }
+    82% {
+      transform: translateX(-0.2%);
+    }
+    100% {
+      transform: translateX(-125%);
+    }
+  }
+  
+  @keyframes deconstructed3 {
+    0% {
+      transform: translateX(100%);
+    }
+    22% {
+      transform: translateX(0%);
+    }
+    81% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-130%);
+    }
+  }
+  
+  @keyframes deconstructed4 {
+    0% {
+      transform: translateX(100%);
+    }
+    20% {
+      transform: translateX(0%);
+    }
+    80% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-135%);
+    }
+  }
+
+  .tt{
+    margin-top: -30rem;
+  }
+
+  .ttt{
+    margin-top: -15rem;
+    margin-left: 55rem;
+  }
+
+  .card1{
+    color: white;
+    background-color: transparent;
+    font-weight: 200;
+    border-style: solid;
+    margin-bottom: 10rem;
+  }
+
+  .htitle{
+    margin-top: 2rem;
+    color: white;
+    font-weight: 300;
+  }
+
+
+  .matches-header{
+    font-weight: 200;
+    color: white;
+    margin-top: 3rem;
+  }
+
+  .matches-b p{
+    color: white;
+    font-weight: 200;
+    text-align: center;
+  }
+
+
+  .bb{
+    border-color: wheat;
+    border-style: solid;
+  }
+
+  .broker-header{
+    margin-top: 2rem;
+    color: white;
+    font-weight: 300;
+    
+  }
+
+  .card2{
+    color: white;
+    background-color: transparent;
+    font-weight: 200;
+    border-style: solid;
+    margin-bottom: 10rem;
+  }
+
+  .b-about{
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .p-about{
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  }
+
+  .copyright{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    bottom: 0;
+    position: absolute;
+
+    text-align: center;
+    font-size: 2px;
+    font-weight: 100;
+    color: white;
+  }
+
+  .copyright h5{
+    margin: auto;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 100;
+    color: white;
+  }
+
+  .matches-details{
+    background-color: transparent;
+    color: white;
+  }
+
+  .matches-p{
+    font-weight: 200;
+  }
+
+  .contact-header{
+    margin-top: 2rem;
+    color: white;
+    font-weight: 300;
+    
+  }
+
+  .contact-details{
+    margin-top: .8rem;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    
+  }
+
+
+
+
